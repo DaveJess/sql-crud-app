@@ -6,4 +6,4 @@ const authController = new AuthController();
 
 router.post("/register", (req, res) => authController.createUser(req, res));
 
-export default router;
+export default router; 
