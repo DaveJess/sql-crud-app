@@ -8,4 +8,4 @@ export interface CreateUserDTO {
 export interface IAuthService {
     createUser(input:CreateUserDTO):Promise<any>;
     login(email: string, password: string): Promise<string>;
-}
+};

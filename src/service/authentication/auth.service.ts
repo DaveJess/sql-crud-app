@@ -7,8 +7,6 @@ import { IAuthService, CreateUserDTO } from "./auth.interface";
 import dotenv from "dotenv"; 
 
 dotenv.config(); 
-
-
 export class AuthenticationService implements IAuthService {
     private userRepository:UserRepository;
 

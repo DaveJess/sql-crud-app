@@ -7,5 +7,6 @@ export interface IBook  extends Document {
     price: Number,
     genre: String,
     publishedYear: Number
-}
+};
+
 
