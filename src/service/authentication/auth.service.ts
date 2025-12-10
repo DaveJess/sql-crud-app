@@ -3,7 +3,7 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import User from "../../models/user.model";
 import { UserRepository } from "../../repository/user.repository";
-import { IAuthService, CreateUserDTO } from "./auth.interface";
+import { IAuthService, CreateUserDTO } from "../../Interfaces/auth.interface";
 import dotenv from "dotenv"; 
 
 dotenv.config(); 

@@ -1,6 +1,6 @@
 //define your user repository here
 import User from "../models/user.model";
-import { CreateUserDTO } from "../service/authentication/auth.interface";
+import { CreateUserDTO } from "../Interfaces/auth.interface";
 
 export class UserRepository {
     async findByEmail(email:string):Promise<typeof User | null> {
